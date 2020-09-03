@@ -1,0 +1,8 @@
+server:
+  port: 4079
+spring:  jpa:    hibernate:      ddl-auto: none
+    show-sql: true    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:    url: jdbc:postgresql://localhost:5432/FlutterDatabase?currentSchema=dev_sivaganesh
+    username: postgres
+    password: Firstpwd@1
+    hikari:      driver-class-name: org.postgresql.Driver
